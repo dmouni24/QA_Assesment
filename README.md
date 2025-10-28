@@ -79,23 +79,3 @@ Total	21
 Public systems only, no secrets or keys.
 
 ≤1 RPS for performance test (safe load).
-
-Manual screenshots used as evidence for agent tests.
-
-🏁 Submission
-
-Verify all tests pass locally.
-
-Push to public GitHub repo.
-
-Include agent transcripts in /agent-evals/transcripts/.
-
-Submit the repo link.
-
-End of README
-
-
----
-
-✅ You can paste this directly into your repo as `README.md`.  
-Would you like me to also give you the short **`package.json`** so your Playwright setup installs in
