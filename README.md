@@ -10,7 +10,7 @@
 This project demonstrates an end-to-end QA assessment covering:
 - 🌐 **Web App:** [SauceDemo](https://www.saucedemo.com) – tested via Playwright  
 - 🔌 **Public API:** [Reqres.in](https://reqres.in) – validated via Postman/Newman  
-- 🤖 **Agent Platform:** ChatGPT (Free Tier) – manual evaluation suite  
+  
 
 Includes a complete QA strategy, automation, agent evaluation, bug reporting, and performance plan.
 
