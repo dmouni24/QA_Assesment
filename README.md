@@ -1,4 +1,4 @@
-#  QA Take-Home Assessment – SauceDemo | Reqres.in | ChatGPT
+#  QA Take-Home Assessment – SauceDemo | Reqres.in |
 
 **Author:** Mounika Dokka
 **Duration:** 24 Hours  
