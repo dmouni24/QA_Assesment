@@ -1,0 +1,12 @@
+Prompt: Extract names and dates from this text:
+"John met Alice on 10 June 2021 in Paris."
+
+Response:
+{
+  "people": ["John", "Alice"],
+  "date": "June 10, 2021",
+  "location": "Paris"
+}
+
+Result: PASS
+Reason: Correct JSON structure and accurate entity extraction.
