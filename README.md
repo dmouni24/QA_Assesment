@@ -1,6 +1,6 @@
 # 🧪 QA Take-Home Assessment – SauceDemo | Reqres.in | ChatGPT
 
-**Author:** [Your Name]  
+**Author:** Mounika Dokka
 **Duration:** 24 Hours  
 **Submission:** Public GitHub Repository  
 
