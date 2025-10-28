@@ -1,0 +1,41 @@
+{
+  "info": {
+    "name": "Reqres API Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET Users",
+      "request": { "method": "GET", "url": "https://reqres.in/api/users?page=2" },
+      "event": [{ "listen": "test", "script": { "exec": ["pm.test('Status 200', ()=>pm.response.to.have.status(200));"] } }]
+    },
+    {
+      "name": "POST Create User",
+      "request": {
+        "method": "POST",
+        "url": "https://reqres.in/api/users",
+        "body": { "mode": "raw", "raw": "{\"name\":\"morpheus\",\"job\":\"leader\"}" }
+      },
+      "event": [{ "listen": "test", "script": { "exec": ["pm.test('Has id', ()=>pm.expect(pm.response.json().id).to.exist);"] } }]
+    },
+    {
+      "name": "PUT Update User",
+      "request": {
+        "method": "PUT",
+        "url": "https://reqres.in/api/users/2",
+        "body": { "mode": "raw", "raw": "{\"name\":\"neo\"}" }
+      },
+      "event": [{ "listen": "test", "script": { "exec": ["pm.test('Status 200', ()=>pm.response.to.have.status(200));"] } }]
+    },
+    {
+      "name": "DELETE User",
+      "request": { "method": "DELETE", "url": "https://reqres.in/api/users/2" },
+      "event": [{ "listen": "test", "script": { "exec": ["pm.test('Status 204', ()=>pm.response.to.have.status(204));"] } }]
+    },
+    {
+      "name": "Invalid Endpoint",
+      "request": { "method": "GET", "url": "https://reqres.in/api/unknown123" },
+      "event": [{ "listen": "test", "script": { "exec": ["pm.test('404 returned', ()=>pm.response.to.have.status(404));"] } }]
+    }
+  ]
+}
